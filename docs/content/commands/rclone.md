@@ -744,7 +744,7 @@ rclone [flags]
   -P, --progress                                            Show progress during transfer
       --progress-terminal-title                             Show progress on the terminal title (requires -P/--progress)
       --protondrive-2fa string                              The 2FA code
-      --protondrive-app-version string                      The app version string
+      --protondrive-app-version string                      The app version string (default "macos-drive@1.0.0-alpha.1+rclone")
       --protondrive-description string                      Description of the remote
       --protondrive-enable-caching                          Caches the files and folders metadata to reduce API calls (default true)
       --protondrive-encoding Encoding                       The encoding for the backend (default Slash,LeftSpace,RightSpace,InvalidUtf8,Dot)

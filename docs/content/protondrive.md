@@ -296,18 +296,16 @@ Properties:
 
 The app version string 
 
-The app version string identifies the client that is currently performing the
-API request. Third-party Proton Drive integrations should use the form
-`external-drive-<project>@<version>`. If this option is left empty, rclone
-derives a compliant value from its own version. This value is sent with every
-API request; the option itself is optional.
+The app version string indicates the client that is currently performing 
+the API request. This information is required and will be sent with every 
+API request.
 
 Properties:
 
 - Config:      app_version
 - Env Var:     RCLONE_PROTONDRIVE_APP_VERSION
 - Type:        string
-- Required:    false
+- Default:     "macos-drive@1.0.0-alpha.1+rclone"
 
 #### --protondrive-replace-existing-draft
 

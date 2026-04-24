@@ -923,7 +923,7 @@ Backend-only flags (these can be set in the config file also).
       --premiumizeme-token string                           OAuth Access Token as a JSON blob
       --premiumizeme-token-url string                       Token server url
       --protondrive-2fa string                              The 2FA code
-      --protondrive-app-version string                      The app version string
+      --protondrive-app-version string                      The app version string (default "macos-drive@1.0.0-alpha.1+rclone")
       --protondrive-description string                      Description of the remote
       --protondrive-enable-caching                          Caches the files and folders metadata to reduce API calls (default true)
       --protondrive-encoding Encoding                       The encoding for the backend (default Slash,LeftSpace,RightSpace,InvalidUtf8,Dot)
@@ -1218,4 +1218,5 @@ Backend-only flags (these can be set in the config file also).
       --zoho-token-url string                               Token server url
       --zoho-upload-cutoff SizeSuffix                       Cutoff for switching to large file upload api (>= 10 MiB) (default 10Mi)
 ```
+
 
